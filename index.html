@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header-section starts -->
+    <header class="header-section">
+      <div class="navbar">
+        <div class="logo">Falade <span>Samuel</span></div>
+        <ul class="nav-links">
+          <li>
+            <div><a href="#" class="Active" onclick="showall();">Home</a></div>
+          </li>
+          <li>
+            <div><a href="#" onclick="showaboutp();">About</a></div>
+          </li>
+          <li>
+            <div><a href="#" onclick="showservicesp();">Services</a></div>
+          </li>
+          <li>
+            <div><a href="#" onclick="showprojectsp();">My Projects</a></div>
+          </li>
+          <li>
+            <div><a href="#" onclick="showcontactp();">Contact</a></div>
+          </li>
+        </ul>
+        <!--  Hamburger menu icon -->
+        <div class="hamburger-menu" onclick="toggleBar();">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </div>
+        <!-- End of hamburger menu -->
+      </div>
+      <section class="hero-section">
+        <div class="part">
+          <h1>
+            Hello, I'm
+            <span
+              >Falade <br />
+              Samuel</span
+            >
+          </h1>
+          <p>I am a Web Developer & Digital Craftsman</p>
+          <button>
+            <a href="https://wa.me/2348104675363">GET IN TOUCH</a>
+          </button>
+          <div class="social-links">
+            <ul>
+              <li><i class="fa-brands fa-facebook"></i></li>
+              <li><i class="fa-brands fa-x-twitter"></i></li>
+              <li><i class="fa-brands fa-linkedin"></i></li>
+            </ul>
+          </div>
+        </div>
+        <div class="right">
+          <img src="IMG/IMG_2269.png" alt="" />
+        </div>
+      </section>
+      <!-- Hero section ends here -->
+    </header>
+    <!-- About section starts here -->
+    <div class="sections">
+      <section class="about-section" id="aboutp">
+        <div class="about">
+          <h1>About Me</h1>
+          <p>
+            Hi, My Name is Falade Samuel, I am an aspiring web developer <br />
+            with a passion for creating clean, responsive websites. <br />
+            I am currently learning HTML, CSS, and JavaScript, and <br />
+            constantly improving my skills through real-world projects. <br />
+            I enjoy turning ideas into interactive experiences <br />
+            and aim to become a full-stack developer.
+          </p>
+          <button><a href="CV/Falade_Samuel_CV.docx">DOWNLOAD CV</a></button>
+        </div>
+      </section>
+      <section class="services" id="servicesp">
+        <div class="experience">
+          <h1>Services</h1>
+          <ul>
+            <li>
+              HTML <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            </li>
+            <li>
+              CSS <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-regular fa-star"></i>
+            </li>
+            <li>
+              JAVASCRIPT <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <!-- project section start here -->
+    <section class="projects-section" id="projectsp">
+      <h1>My Projects</h1>
+      <div class="boxes">
+        <div class="box1">
+          <img src="IMG/box1.PNG" alt="" />
+          <p>
+            <a href="http://25bgroup3project.vercel.app"
+              >School Management Website</a
+            >
+          </p>
+        </div>
+        <div class="box2">
+          <img src="IMG/box2.PNG" alt="" />
+          <p>
+            <a href="http://fst-blogproject.vercel.app">Blog Project</a>
+          </p>
+        </div>
+        <div class="box3">
+          <img src="IMG/box3.PNG" alt="" />
+          <p>
+            <a href="#">Active Box</a>
+          </p>
+        </div>
+      </div>
+      <div class="boxes2">
+        <div class="box4">
+          <img src="IMG/box4.PNG" alt="" />
+          <p>
+            <a href="#">Banner Image</a>
+          </p>
+        </div>
+        <div class="box5">
+          <img src="IMG/box5.PNG" alt="" />
+          <p>
+            <a href="#">Login Page</a>
+          </p>
+        </div>
+        <div class="box6">
+          <img src="IMG/box6.PNG" alt="" />
+          <p>
+            <a href="#">Login Page</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- projects section ends here -->
+    <section class="contact-section" id="contactp">
+      <h1>Let's Work <span>Together</span></h1>
+      <p>
+        I'm available for freelance work. Have any projects in your <br />
+        mind? Just feel free to contact me
+      </p>
+      <button>
+        <a href="https://wa.me/2348104675363">CONTACT ME</a>
+      </button>
+    </section>
+    <!-- Footer section -->
+    <footer class="footer-section">
+      <div class="links">
+        <p>&copy; 2025 Falade Samuel</p>
+        <ul>
+          <li><i class="fa-brands fa-facebook"></i></li>
+          <li><i class="fa-brands fa-x-twitter"></i></li>
+          <li><i class="fa-brands fa-linkedin"></i></li>
+        </ul>
+      </div>
+    </footer>
+    <!-- Javascript script link -->
+    <script src="JS/script.js"></script>
+  </body>
+</html>

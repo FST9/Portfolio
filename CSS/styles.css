@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  /* color: #333; */
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* header section styling */
+.header-section {
+  background-color: black;
+  position: relative;
+  padding: 1rem 4rem;
+  text-decoration: none;
+  border-top: 2px solid rgb(5, 5, 219);
+}
+.header-section > .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* position: fixed;
+  background-color: gray;
+  height: 30px;
+  width: 100%; */
+}
+.header-section > .navbar .logo {
+  font-size: 16px;
+  font-weight: bold;
+  color: yellow;
+}
+.header-section > .navbar .logo span {
+  color: white;
+}
+.header-section > .navbar ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  gap: 13px;
+}
+.header-section > .navbar ul a {
+  text-decoration: none;
+  color: white;
+}
+.header-section > .navbar ul div :hover {
+  width: 20px;
+  padding: 18px;
+  height: 7px;
+  background-color: rgb(1, 1, 233);
+  color: rgb(245, 245, 69);
+  align-items: center;
+}
+/* Hamburger menu bar */
+.header-section .hamburger-menu {
+  display: none;
+  color: white;
+  cursor: pointer;
+}
+/* Hamburger styling ends here */
+.header-section > .hero-section > .part {
+  color: white;
+  max-width: 500px;
+  height: 600px;
+  padding-top: 165px;
+  padding-left: 20px;
+  position: relative;
+}
+.header-section .hero-section .part h1 {
+  font-size: 43px;
+}
+.header-section .hero-section .part span {
+  color: yellow;
+}
+.header-section .hero-section .part p {
+  font-size: 18px;
+  margin-top: 15px;
+}
+.header-section .hero-section .part button {
+  width: 120px;
+  color: white;
+  background-color: transparent;
+  height: 32px;
+  margin-top: 13px;
+  border: 1px solid yellow;
+  border-radius: 8px 8px 8px 8px;
+}
+.header-section .hero-section .part button a {
+  color: white;
+  text-decoration: none;
+}
+.header-section > .hero-section > .right {
+  position: absolute;
+  top: 15%;
+  left: 55%;
+}
+.header-section > .hero-section > .right img {
+  width: 291px;
+  height: 450px;
+}
+.header-section .hero-section .social-links ul {
+  margin-top: 18px;
+  display: flex;
+  gap: 12px;
+  list-style: none;
+}
+/* About and services starts here */
+.sections {
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.sections .about-section .about h1 {
+  margin-top: 17px;
+  margin-bottom: 9px;
+}
+.sections .about-section .about p {
+  margin-bottom: 9px;
+}
+.sections .about-section .about button {
+  width: 120px;
+  color: black;
+  background-color: transparent;
+  height: 32px;
+  margin-top: 9px;
+  margin-bottom: 16px;
+  border: 1px solid black;
+  border-radius: 8px 8px 8px 8px;
+}
+.sections .about-section .about button a {
+  text-decoration: none;
+  color: black;
+}
+.sections .services .experience h1 {
+  margin-top: 17px;
+}
+.sections .services .experience ul {
+  margin-top: 17px;
+  font-size: 22px;
+}
+.sections .services .experience ul li {
+  margin-bottom: 9px;
+}
+/* About and services ends  here*/
+/* My projects section starts here */
+.projects-section h1 {
+  text-align: center;
+  margin-top: 17px;
+}
+.projects-section > .boxes {
+  margin-top: 40px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+.projects-section > .boxes .box1 {
+  text-align: center;
+  box-shadow: 0px 0px 1px #827c7c;
+  /* border-radius: 10px 6px; */
+  margin-bottom: 5px;
+}
+.projects-section > .boxes .box1 img {
+  width: 222px;
+  height: 222px;
+}
+.projects-section > .boxes .box1 p a {
+  text-decoration: none;
+}
+.projects-section > .boxes .box2 {
+  text-align: center;
+  box-shadow: 0px 0px 1px #827c7c;
+  /* border-radius: 10px 6px; */
+  margin-bottom: 5px;
+}
+.projects-section > .boxes .box2 img {
+  width: 222px;
+  height: 222px;
+}
+.projects-section > .boxes .box2 p a {
+  text-decoration: none;
+}
+.projects-section > .boxes .box3 {
+  text-align: center;
+  box-shadow: 0px 0px 1px #827c7c;
+  /* border-radius: 10px 6px; */
+  margin-bottom: 5px;
+}
+.projects-section > .boxes .box3 img {
+  width: 222px;
+  height: 222px;
+}
+.projects-section > .boxes .box3 p a {
+  text-decoration: none;
+  text-align: center;
+}
+.projects-section > .boxes2 {
+  margin-top: 40px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+.projects-section > .boxes2 .box4 {
+  text-align: center;
+  box-shadow: 0px 0px 1px #827c7c;
+  /* border-radius: 10px 6px; */
+  margin-bottom: 5px;
+}
+.projects-section > .boxes2 .box4 img {
+  width: 222px;
+  height: 222px;
+}
+.projects-section > .boxes2 .box4 p a {
+  text-decoration: none;
+  text-align: center;
+}
+.projects-section > .boxes2 .box5 {
+  text-align: center;
+  box-shadow: 0px 0px 1px #827c7c;
+  /* border-radius: 10px 6px; */
+  margin-bottom: 5px;
+}
+.projects-section > .boxes2 .box5 img {
+  width: 222px;
+  height: 222px;
+}
+.projects-section > .boxes2 .box5 p a {
+  text-decoration: none;
+  text-align: center;
+}
+.projects-section > .boxes2 .box6 {
+  text-align: center;
+  box-shadow: 0px 0px 1px #827c7c;
+  /* border-radius: 10px 6px; */
+  margin-bottom: 5px;
+}
+.projects-section > .boxes2 .box6 img {
+  width: 222px;
+  height: 222px;
+}
+.projects-section > .boxes2 .box6 p a {
+  text-decoration: none;
+  text-align: center;
+}
+/* My projects section ends here */
+/* contact setion start here */
+.contact-section {
+  background-color: black;
+  text-align: center;
+  color: #f4f4f4;
+  height: 255px;
+}
+.contact-section h1 {
+  padding-top: 22px;
+  font-size: 49px;
+  font-weight: bolder;
+}
+.contact-section h1 span {
+  color: yellow;
+}
+.contact-section p {
+  font-size: 23px;
+  margin-top: 22px;
+}
+.contact-section button {
+  margin-top: 18px;
+  width: 120px;
+  color: white;
+  background-color: transparent;
+  height: 32px;
+  border: 1px solid yellow;
+  border-radius: 8px 8px 8px 8px;
+}
+.contact-section button a {
+  color: white;
+  text-decoration: none;
+}
+/* contact section ends here */
+/* Footer section */
+.footer-section {
+  background-color: black;
+  color: white;
+  padding: 22px;
+}
+.footer-section .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-section .links ul {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+  list-style: none;
+}
+/* Media Query starts here */
+@media screen and (max-width: 1024px) {
+  .header-section {
+    padding: 1rem 2rem;
+    overflow: hidden;
+  }
+  .projects-section .boxes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .projects-section .boxes2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .contact-section {
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-section .hero-section > h1 {
+    font-size: 1.5rem;
+  }
+
+  .header-section .hero-section .part > p {
+    font-size: 0.9rem;
+  }
+  .header-section .navbar {
+    display: flex;
+    flex-direction: row;
+  }
+  .header-section .navbar ul {
+    display: none;
+    flex-direction: column;
+    position: relative;
+    top: 40px;
+    right: 119px;
+    color: blue;
+    width: 50%;
+    opacity: 0.43;
+  }
+  .header-section .hamburger-menu {
+    display: inline-block;
+    left: 33px;
+  }
+  .header-section .hero-section {
+    flex-wrap: wrap;
+  }
+  .header-section > .hero-section > .right {
+    position: relative;
+    bottom: 152px;
+    left: 14px;
+  }
+  .sections {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 17px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .contact-section {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .contact-section h1 {
+    font-size: 22px;
+    line-height: 1.2;
+  }
+
+  .contact-section p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .contact-section button {
+    font-size: 14px;
+  }
+
+  .footer-section .links ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer-section li {
+    list-style: none;
+  }
+
+  .footer-section p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 320) {
+  .contact-section h1 {
+    font-size: 18px;
+  }
+  .contact-section p,
+  .footer-section p {
+    font-size: 12px;
+  }
+}
