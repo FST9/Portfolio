@@ -351,6 +351,7 @@ html {
     color: blue;
     width: 50%;
     opacity: 0.43;
+    z-index: 10;
   }
   .header-section .hamburger-menu {
     display: inline-block;
