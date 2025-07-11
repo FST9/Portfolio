@@ -52,7 +52,7 @@ html {
   width: 20px;
   padding: 18px;
   height: 7px;
-  background-color: rgb(1, 1, 233);
+  /* background-color: rgb(1, 1, 233); */
   color: rgb(245, 245, 69);
   align-items: center;
 }
