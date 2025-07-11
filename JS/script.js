@@ -8,33 +8,33 @@ function toggleBar() {
   }
 }
 //Blog section filter functionality
-function showall() {
-  document.getElementById("aboutp").style.display = "block";
-  document.getElementById("servicesp").style.display = "block";
-  document.getElementById("contactp").style.display = "block";
-  document.getElementById("projectsp").style.display = "block";
-}
-function showaboutp() {
-  document.getElementById("aboutp").style.display = "block";
-  document.getElementById("servicesp").style.display = "none";
-  document.getElementById("contactp").style.display = "none";
-  document.getElementById("projectsp").style.display = "none";
-}
-function showservicesp() {
-  document.getElementById("aboutp").style.display = "none";
-  document.getElementById("servicesp").style.display = "block";
-  document.getElementById("contactp").style.display = "none";
-  document.getElementById("projectsp").style.display = "none";
-}
-function showprojectsp() {
-  document.getElementById("aboutp").style.display = "none";
-  document.getElementById("servicesp").style.display = "none";
-  document.getElementById("contactp").style.display = "none";
-  document.getElementById("projectsp").style.display = "block";
-}
-function showcontactp() {
-  document.getElementById("aboutp").style.display = "none";
-  document.getElementById("servicesp").style.display = "none";
-  document.getElementById("contactp").style.display = "block";
-  document.getElementById("projectsp").style.display = "none";
-}
+// function showall() {
+//   document.getElementById("aboutp").style.display = "block";
+//   document.getElementById("servicesp").style.display = "block";
+//   document.getElementById("contactp").style.display = "block";
+//   document.getElementById("projectsp").style.display = "block";
+// }
+// function showaboutp() {
+//   document.getElementById("aboutp").style.display = "block";
+//   document.getElementById("servicesp").style.display = "none";
+//   document.getElementById("contactp").style.display = "none";
+//   document.getElementById("projectsp").style.display = "none";
+// }
+// function showservicesp() {
+//   document.getElementById("aboutp").style.display = "none";
+//   document.getElementById("servicesp").style.display = "block";
+//   document.getElementById("contactp").style.display = "none";
+//   document.getElementById("projectsp").style.display = "none";
+// }
+// function showprojectsp() {
+//   document.getElementById("aboutp").style.display = "none";
+//   document.getElementById("servicesp").style.display = "none";
+//   document.getElementById("contactp").style.display = "none";
+//   document.getElementById("projectsp").style.display = "block";
+// }
+// function showcontactp() {
+//   document.getElementById("aboutp").style.display = "none";
+//   document.getElementById("servicesp").style.display = "none";
+//   document.getElementById("contactp").style.display = "block";
+//   document.getElementById("projectsp").style.display = "none";
+// }

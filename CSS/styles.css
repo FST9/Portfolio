@@ -24,10 +24,11 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* position: fixed;
-  background-color: gray;
-  height: 30px;
+  background-color: black;
+  /* height: 40px;
   width: 1100px; */
+  align-items: center;
+  /* top: 0; */
 }
 .header-section > .navbar .logo {
   font-size: 16px;
@@ -145,6 +146,9 @@ html {
 }
 .sections .services .experience ul li {
   margin-bottom: 9px;
+}
+.sections .services .experience ul li i {
+  font-size: 21px;
 }
 /* About and services ends  here*/
 /* My projects section starts here */
@@ -321,6 +325,9 @@ html {
     padding: 20px;
     text-align: center;
   }
+  .sections .services .experience ul {
+    padding: 8px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -338,7 +345,7 @@ html {
   .header-section .navbar ul {
     display: none;
     flex-direction: column;
-    position: relative;
+    position: absolute;
     top: 40px;
     right: 119px;
     color: blue;
